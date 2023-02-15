@@ -5,9 +5,8 @@ while n!= guess:
     if guess < n:
         print("Too low")
         guess = int(input("Enter number again: "))
-    elif guess > n:
+    if guess > n:
         print("Too high!")
         guess = int(input("Enter number again: "))
-    else:
-      break
+    if guys = n:
 print("you guessed it right!!")
